@@ -276,7 +276,7 @@ body {
     backface-visibility: hidden;
 }
 
-.card-front {
+.card-front {/* child combinator*/
     z-index: 2;
 }
 
@@ -321,7 +321,7 @@ body {
     color: black;
   }
   /* Attribute selector */
-  input[type="text"],/
+  input[type="text"],
   textarea {
     width: 100%;
     padding: 10px;
@@ -406,7 +406,7 @@ body {
   color: black;                  
 }
 
-input[type="text"],
+input[type="text"],/* Attribute Selector */
 textarea 
   width: 100%;                   
   padding: 10px;                 
