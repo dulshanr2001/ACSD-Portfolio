@@ -22,7 +22,7 @@ body {
 .logo {
     color: black;
     font-size: 40px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);/* add shadow for text */
 }
 
 .nav-links {
@@ -67,7 +67,7 @@ body {
     margin: 5px 2px;
   }
   
-  .fa:hover {
+  .fa:hover {/* poseudo class*/
       opacity: 0.7;
   }
   
@@ -121,10 +121,10 @@ body {
   .p2{
     font-size: 30px;
     padding-left: 300px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;/* Specific font*/
   }
 
- 
+ /* button gradient*/
   .button{
     background-color: aqua;
     color: black;
@@ -135,14 +135,23 @@ body {
     margin-top: 15px;
     border-radius: 12px;
     font-family: fantasy;  
+    background: linear-gradient(45deg, #08adb2, #4b49c0); /* Gradient background */
+    cursor: pointer; 
+    transition: background 0.3s, transform 0.3s; 
     
 }
 
-  .button:hover{
+
+.gradient-button:hover {/* poseudo class*/
+    transform: scale(1.05); 
+    background: linear-gradient(45deg, #ff4b4b, #f7c94c); /* Change gradient on hover */
+}
+
+  .button:hover{/* poseudo class*/
     opacity: 0.6;
   }
 
-  .logo:hover{
+  .logo:hover{/* poseudo class*/
     opacity: 0.7;
   }
 
@@ -164,7 +173,7 @@ body {
 
   }
 
-  .button2:hover{
+  .button2:hover{/* poseudo class*/
     opacity: 0.6;
   }
 
@@ -210,7 +219,7 @@ body {
 .card img {
     width: 200x;
     height: 500px;
-    border-radius: 10px;
+    border-radius: 10px;/* add rounded cornre*/
 }
 
 .card h2 {
@@ -311,8 +320,8 @@ body {
     margin-bottom: 8px;
     color: black;
   }
-  
-  input[type="text"],
+  /* Attribute selector */
+  input[type="text"],/
   textarea {
     width: 100%;
     padding: 10px;
